@@ -86,3 +86,59 @@ body {
 img {
   border:
 }
+
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #fa5a5a;
+  margin-top: 20px;
+}
+
+#week2 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #faaf5a;
+  margin-top: 20px;
+}
+
+#week3 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #faed5a;
+  margin-top: 20px;
+}
+
+#week4 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #5afa7d;
+  margin-top: 20px;
+}
+
+#week5 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #5acafa;
+  margin-top: 20px;
+}
+
+#week6 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #8f5afa;
+  margin-top: 20px;
+}
+
+#projects {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #8f5afa;
+  margin-top: 20px;
+}
