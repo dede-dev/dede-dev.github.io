@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  <link rel="stylesheet" href="color.css"></link>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+
+   <style>
+     #map {position: absolute; top: 0; bottom: 0; left: 0; right: 0;}
+   </style>
+  </head>
+<body>
+
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+<script>
+  var map = L.map('map').setView([0, 0], 1);
+
+  L.tileLayer('https://api.maptiler.com/maps/darkmatter/{z}/{x}/{y}.png?key=HLLRagscAUCjDAl9SBIt', {
+    attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+  }).addTo(map);
+  var marker = L.marker([37.75, 26.97]).addTo(map);
+
+marker.bindPopup("<b> The study of acoustics was created in 6th century BC philosopher Pythagoras in Samos, Greece");
+
+var marker = L.marker([48.71, 44.40]).addTo(map);
+
+marker.bindPopup("<b> Sound was weaponized in 1942 when Soviet troops kept German forces awake by playing Argentine tangos");
+
+var marker = L.marker([33.25, 44.26]).addTo(map);
+
+marker.bindPopup("<b> Perhaps for the first time, the Pentagon deployed a real sound weapons called the LRAD (Long Range Acoustic Device), in Iraq in 2004");
+
+var marker = L.marker([40.70, -74.00]).addTo(map);
+
+marker.bindPopup("<b> Police units used LRAD devices during the Occupy Wall Street protest in 2011");
+
+var marker = L.marker([38.74, -90.30]).addTo(map);
+
+marker.bindPopup("<b> LRADs were also used in Ferguson, Missouri in 2014");
+
+var marker = L.marker([23.14, -82.38]).addTo(map);
+
+marker.bindPopup("<b> A supposed sonic attack occured in Cuba in 2017 with the nearly two dozen victims experiencing symptoms of headaches, dizziness, cognitive issues, and sleep loss. Perhaps signs of a new sonic weapon.");
+
+var marker = L.marker([51.62, -0.12]).addTo(map);
+
+marker.bindPopup("<b> Origins of fatphobia: In 1830 an article by a socialite named Leigh Hunt described the relationship between overeating, femininity, and race... According to Hunt, no lady in American high society could hope to maintain her esteem while corpulent; only in Africa could a fat woman find her stride,");
+
+
+
+</script>
+
+
+
+</body>
+</html>
