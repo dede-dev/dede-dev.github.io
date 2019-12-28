@@ -1,0 +1,144 @@
+body {
+  background-color: black;
+  margin:0;
+  padding: 0;
+}
+
+video {
+  outline: 2px solid #FF0099;
+}
+
+h1 {
+  color: white;
+  font-family: "Lucida Console", Lucida, monospace;
+  font-style: oblique;
+  text-align: center;
+  font-size: 50px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+ul a {
+  background:
+}
+.stickynav {
+  background-color: #00FF00;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a {
+  cursor:  url(images/geometric.png), auto;
+}
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #00FFFF
+  color: white;
+}
+
+a:link, a:visited {
+  background-color: #00FF00
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+a:hover {
+  color: #FF0099;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+body {
+  cursor: url(images/geometric.png), auto;
+  height:100vh;
+}
+
+
+img {
+  border:
+}
+
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #fa5a5a;
+  margin-top: 20px;
+}
+
+#week2 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #faaf5a;
+  margin-top: 20px;
+}
+
+#week3 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #faed5a;
+  margin-top: 20px;
+}
+
+#week4 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #5afa7d;
+  margin-top: 20px;
+}
+
+#week5 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #5acafa;
+  margin-top: 20px;
+}
+
+#week6 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #8f5afa;
+  margin-top: 20px;
+}
+
+#projects {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #8f5afa;
+  margin-top: 20px;
+}
